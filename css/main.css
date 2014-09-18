@@ -50,6 +50,12 @@ section p {
   width: 33%;
   text-align: center;
 }
+.col-4 .column {
+  padding: 0 1%;
+  width: 24%;
+  text-align: center;
+}
+
 @media (max-width: 865px) {
   .col-3 .column {
     padding: 100px 1% 0px 1%;
@@ -74,6 +80,7 @@ section p {
   line-height: 2em;
   margin: 0 auto;
 }
+
 section.color h2 {
   color: #fff;
 }
@@ -222,6 +229,14 @@ section::after {
     display: block;
     width: 100% !important;
   }
+
+  .bmi-logo {
+  width: 24%;
+}
+
+#projects img{
+  margin-top: 40px;
+}
   .text:first-child,
   .text:nth-child(2) {
     text-align: center;
